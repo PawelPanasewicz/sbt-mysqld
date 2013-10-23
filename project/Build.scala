@@ -8,7 +8,7 @@ object Build extends Build {
     version := "0.1-SNAPSHOT",
     organization := "pl.panasoft",
     organizationName := "pl.panasoft",
-    scalaVersion := "2.10.3",
+    scalaVersion := "2.9.2",
     resolvers ++= commonResolvers,
     libraryDependencies ++= List(
       "pl.panasoft" %% "pimps" % "0.1-SNAPSHOT",
